@@ -6,7 +6,6 @@ public class PetFactory {
 	{
 		if (sound==null) {
 			return null;
-
 		}
 		if (sound.equalsIgnoreCase("Dog")) {
 			return new Dog();
